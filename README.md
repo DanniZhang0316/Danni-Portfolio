@@ -59,7 +59,7 @@ Conducted an exploratory statistical analysis on a dataset of 374 individuals an
   - Higher stress levels significantly reduce sleep quality.
   - Longer sleep duration strongly improves perceived sleep quality.
   - Elevated heart rate and higher BMI are associated with poorer sleep.
-  - High-stress professions (e.g., doctors, sales representatives, scientists) show lower average sleep quality :contentReference[oaicite:3]{index=3}.
+  - High-stress professions (e.g., doctors, sales representatives, scientists) show lower average sleep quality.
 
 **Technologies**:  
 R | Statistical Analysis | Spearman Correlation | Data Visualization | Exploratory Data Analysis

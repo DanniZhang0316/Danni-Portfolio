@@ -21,3 +21,15 @@ Developed an end-to-end NLP pipeline to identify and track latent research theme
 - **Topic Labeling & Interpretation**: Extracted TF-IDF keywords per cluster, removed generic COVID terms, and assigned interpretable labels. Identified 20 distinct research themes and their temporal evolution.
 
 **Technologies**: Python | SBERT | PCA | MiniBatchKMeans | TF-IDF | NLP | Unsupervised Learning | Data Visualization
+
+### 3. [ML-Driven Predictive Analysis for Loans](https://github.com/DanniZhang0316/ML-Loan-Classification)  
+Developed a machine learning pipeline to predict loan approval outcomes using a dataset of 45,000 samples, enabling automated decision-making and reducing human bias in the loan approval process.
+
+- **Data Processing**: Cleaned and prepared the dataset by removing outliers and correcting skewed feature distributions using logarithmic transformations. Applied a standard deviation–based secondary filtering method for robust anomaly detection, and conducted exploratory data analysis with visualizations to better understand data patterns.
+
+- **Model Development**: Evaluated six classification algorithms, including Random Forest and Logistic Regression, and optimized model performance through cross-validation and hyperparameter tuning using GridSearchCV.
+
+- **Results**: Compared performance across all six models and identified XGBoost, and Random Forest as the top performers, achieving ROC-AUC scores ranging from 0.96 to 0.97.
+
+**Technologies:**  
+Python · Scikit-learn · XGBoost · GridSearchCV · Machine Learning · Data Preprocessing · Model Evaluation  

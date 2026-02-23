@@ -1,6 +1,6 @@
 # Projects
 ## Machine Learning:
-### 1. Automatic Bee Detection Using YOLOv10 (client: Gratheon)         
+### 1. [Automatic Bee Detection Using YOLOv10 (client: Gratheon)](https://github.com/DanniZhang0316/ML-Bee-Type-Detection)         
 Developed a ML pipeline for automatic detection of worker and drone bees from live video frames, achieving 97% precision and 93% recall.
 - **Data Preprocessing**: Implemented high-resolution image tiling by slicing 3840×1080 images into three overlapping tiles.
 - **Data Augmentation**: Applied copy-paste augmentation by extracting and augmenting drone instances and reinserting them into training images, improving mAP@50–95 from 0.63 to 0.66.
@@ -9,7 +9,7 @@ responsibility: YOLOv10 trainning, data preprocessing and augmentation
 
 **Technologies**: Roboflow | Python
 
-### 2.Topic Modeling of COVID-19 Open Research (CORD-19 Dataset)
+### 2. [Topic Modeling of COVID-19 Open Research (CORD-19 Dataset)](https://github.com/DanniZhang0316/NLP-COVID-19-Topic-Modeling)
 Developed an end-to-end NLP pipeline to identify and track latent research themes across 1M+ COVID-19 scientific publications using semantic embeddings and unsupervised learning.
 
 - **Semantic Representation**: Generated 384-dimensional SBERT embeddings for research abstracts to capture contextual meaning beyond keyword frequency.

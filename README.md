@@ -65,7 +65,7 @@ Conducted an exploratory statistical analysis on a dataset of 374 individuals an
 R | Statistical Analysis | Spearman Correlation | Data Visualization | Exploratory Data Analysis
 
 ## Data Engineering & Database
-### 1. [End-to-End Financial Data Warehouse (Airflow + dbt + ClickHouse)](https://github.com/DanniZhang0316/Data-Engineering-Stock/tree/master)    
+### 1. [S&P 600 Data Warehouse](https://github.com/DanniZhang0316/Data-Engineering-Stock/tree/master)    
 
 Designed and implemented a production-style data platform to ingest, transform, and analyze S&P 600 stock market data using modern data engineering tools and a star schema warehouse model.
 

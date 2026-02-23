@@ -64,7 +64,7 @@ Conducted an exploratory statistical analysis on a dataset of 374 individuals an
 **Technologies**:  
 R | Statistical Analysis | Spearman Correlation | Data Visualization | Exploratory Data Analysis
 
-### 3. [US Police Shootings Analysis]()  
+### 3. [US Police Shootings Analysis](https://github.com/DanniZhang0316/Data-Visualization-US-Police-Shootings)  
 Analyzed fatal police shooting cases in the United States (2015–2024) to examine demographic patterns, racial disparities, and contextual factors influencing outcomes.
 
 - **Statistical Analysis**: Conducted proportional comparisons across racial groups, analyzing armed status, fleeing attempts, mental health indicators, and body camera usage.

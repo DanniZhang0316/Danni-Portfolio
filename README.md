@@ -64,7 +64,7 @@ Conducted an exploratory statistical analysis on a dataset of 374 individuals an
 **Technologies**:  
 R | Statistical Analysis | Spearman Correlation | Data Visualization | Exploratory Data Analysis
 
-## Data Engineering
+## Data Engineering & Database
 ### 1. [End-to-End Financial Data Warehouse (Airflow + dbt + ClickHouse)](https://github.com/DanniZhang0316/Data-Engineering-Stock/tree/master)    
 
 Designed and implemented a production-style data platform to ingest, transform, and analyze S&P 600 stock market data using modern data engineering tools and a star schema warehouse model.
@@ -89,3 +89,30 @@ Designed and implemented a production-style data platform to ingest, transform, 
 
 **Technologies**:  
 Apache Airflow | dbt | ClickHouse | Apache Iceberg | Docker | Python | SQL | OpenMetadata | Star Schema Modeling
+
+### 2. [LEC 2024 Winter Season Database Design (League of Legends EMEA Championship)](https://github.com/DanniZhang0316/Postgres-LEC-Match-Database/tree/main)  
+
+Designed and implemented a fully normalized relational database for the League of Legends EMEA Championship (LEC) 2024 Winter Season, centralizing fragmented esports data into a structured system for analytics and strategic decision-making.
+
+- **Conceptual Modeling**: Developed an Entity-Relationship (ER) model covering teams, players, matches, match details, formats, and roles based on formal business rules.
+
+- **Normalization**: Transformed the conceptual model into 3NF relational schema; analyzed functional dependencies and justified normalization decisions.
+
+- **Schema Implementation**: Created PostgreSQL tables with:
+  - Primary & foreign keys
+  - CHECK constraints (e.g., match format limits, date validation)
+  - Unique constraints
+  - Cascading updates/deletes
+
+- **Advanced SQL Development**:
+  - Created analytical views (e.g., team total wins ranking)
+  - Implemented stored functions:
+    - Top 3 most-used champions per player with win rate
+    - Top 3 players per role (role-specific evaluation logic)
+    - Player contribution score to team victories
+  - Implemented stored procedures:
+    - Add new team & player with historical tracking
+    - Compare two players' performance contribution
+
+**Technologies**:  
+PostgreSQL | Database Normalization (3NF) | ER Modeling | Views | Constraint Design

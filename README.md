@@ -32,7 +32,7 @@ Developed a machine learning pipeline to predict loan approval outcomes using a 
 **Technologies**:  
 Python | Scikit-learn | XGBoost | GridSearchCV | Machine Learning | Data Preprocessing | Model Evaluation  
 
-## Data Analysis
+## Data Analysis & Statistics
 ### 1. [Uber Pickups Analysis in New York City](https://github.com/DanniZhang0316/Data-Analysis-Uber-pickups)
 Analyzed 4.5 million Uber trip records (April–September) to identify temporal and spatial demand patterns across New York City, supporting data-driven insights for service optimization and fleet management.
 

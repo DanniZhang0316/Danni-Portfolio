@@ -32,7 +32,7 @@ Developed a machine learning pipeline to predict loan approval outcomes using a 
 **Technologies**:  
 Python | Scikit-learn | XGBoost | GridSearchCV | Machine Learning | Data Preprocessing | Model Evaluation  
 
-## Data Analysis & Statistics
+## Data Analysis & Visualization
 ### 1. [Uber Pickups Analysis in New York City](https://github.com/DanniZhang0316/Data-Analysis-Uber-pickups)
 Analyzed 4.5 million Uber trip records (April–September) to identify temporal and spatial demand patterns across New York City, supporting data-driven insights for service optimization and fleet management.
 
@@ -63,6 +63,16 @@ Conducted an exploratory statistical analysis on a dataset of 374 individuals an
 
 **Technologies**:  
 R | Statistical Analysis | Spearman Correlation | Data Visualization | Exploratory Data Analysis
+
+### 3. [US Police Shootings Analysis]()  
+Analyzed fatal police shooting cases in the United States (2015–2024) to examine demographic patterns, racial disparities, and contextual factors influencing outcomes.
+
+- **Statistical Analysis**: Conducted proportional comparisons across racial groups, analyzing armed status, fleeing attempts, mental health indicators, and body camera usage.
+- **Trend Evaluation**: Identified increasing annual fatality trends, with 2024 recording the highest value in the observed period.
+- **Data Visualization & Design**: Designed a structured infographic presentation using muted color schemes and clear visual hierarchy to support responsible communication of sensitive data.
+
+**Technologies**:  
+Canva | R | Data Analysis | Statistical Comparison | Data Visualization
 
 ## Data Engineering & Database
 ### 1. [S&P 600 Data Warehouse](https://github.com/DanniZhang0316/Data-Engineering-Stock/tree/master)    

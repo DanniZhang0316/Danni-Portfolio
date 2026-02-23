@@ -45,6 +45,25 @@ Analyzed 4.5 million Uber trip records (April–September) to identify temporal 
 **Technologies:**  
 Python | Pandas | NumPy | Matplotlib | Seaborn | Geospatial Analysis | Data Visualization | Time-Series Analysis  
 
+### 2. [Sleep Health & Lifestyle Analysis (with R)](https://github.com/DanniZhang0316/R-Sleep-Health-And-Lifestyle/blob/main/R_projekt_DanniZhang.pdf)  
+
+Conducted an exploratory statistical analysis on a dataset of 374 individuals and 13 lifestyle and health variables to identify key factors influencing sleep quality.
+
+- **Exploratory Data Analysis**: Computed descriptive statistics for numerical and categorical variables, including age, sleep duration, stress level, BMI category, and cardiovascular indicators.
+
+- **Correlation Analysis**: Applied Spearman correlation to evaluate relationships between sleep quality and lifestyle factors. Identified strong positive correlation between sleep duration and sleep quality (r = 0.89) and strong negative correlation between stress level and sleep quality (r = -0.91).
+
+- **Group Comparisons**: Analyzed sleep quality differences across stress levels, BMI categories, gender, and occupation groups using categorized visual comparisons.
+
+- **Key Insights**:
+  - Higher stress levels significantly reduce sleep quality.
+  - Longer sleep duration strongly improves perceived sleep quality.
+  - Elevated heart rate and higher BMI are associated with poorer sleep.
+  - High-stress professions (e.g., doctors, sales representatives, scientists) show lower average sleep quality :contentReference[oaicite:3]{index=3}.
+
+**Technologies**:  
+R | Statistical Analysis | Spearman Correlation | Data Visualization | Exploratory Data Analysis
+
 ## Data Engineering
 ### 1. [End-to-End Financial Data Warehouse (Airflow + dbt + ClickHouse)](https://github.com/DanniZhang0316/Data-Engineering-Stock/tree/master)    
 

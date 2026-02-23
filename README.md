@@ -5,7 +5,7 @@ Developed a ML pipeline for automatic detection of worker and drone bees from li
 - **Data Preprocessing**: Implemented high-resolution image tiling by slicing 3840×1080 images into three overlapping tiles.
 - **Data Augmentation**: Applied copy-paste augmentation by extracting and augmenting drone instances and reinserting them into training images, improving mAP@50–95 from 0.63 to 0.66.
 
-**Technologies**: Roboflow | Python
+**Technologies**: Roboflow | Python | YOLOv10 | Object Detection | Data Augmentation | Data Annotation
 
 ### 2. [Topic Modeling of COVID-19 Open Research (CORD-19 Dataset)](https://github.com/DanniZhang0316/NLP-COVID-19-Topic-Modeling)
 Developed an end-to-end NLP pipeline to identify and track latent research themes across 1M+ COVID-19 scientific publications using semantic embeddings and unsupervised learning.
@@ -90,7 +90,7 @@ Designed and implemented a production-style data platform to ingest, transform, 
 **Technologies**:  
 Apache Airflow | dbt | ClickHouse | Apache Iceberg | Docker | Python | SQL | OpenMetadata | Star Schema Modeling
 
-### 2. [LEC 2024 Winter Season Database Design (League of Legends EMEA Championship)](https://github.com/DanniZhang0316/Postgres-LEC-Match-Database/tree/main)  
+### 2. [LEC 2024 Winter Season Database Design](https://github.com/DanniZhang0316/Postgres-LEC-Match-Database/tree/main)  
 
 Designed and implemented a fully normalized relational database for the League of Legends EMEA Championship (LEC) 2024 Winter Season, centralizing fragmented esports data into a structured system for analytics and strategic decision-making.
 

@@ -5,8 +5,6 @@ Developed a ML pipeline for automatic detection of worker and drone bees from li
 - **Data Preprocessing**: Implemented high-resolution image tiling by slicing 3840×1080 images into three overlapping tiles.
 - **Data Augmentation**: Applied copy-paste augmentation by extracting and augmenting drone instances and reinserting them into training images, improving mAP@50–95 from 0.63 to 0.66.
 
-responsibility: YOLOv10 trainning, data preprocessing and augmentation
-
 **Technologies**: Roboflow | Python
 
 ### 2. [Topic Modeling of COVID-19 Open Research (CORD-19 Dataset)](https://github.com/DanniZhang0316/NLP-COVID-19-Topic-Modeling)
@@ -31,7 +29,7 @@ Developed a machine learning pipeline to predict loan approval outcomes using a 
 
 - **Results**: Compared performance across all six models and identified XGBoost, and Random Forest as the top performers, achieving ROC-AUC scores ranging from 0.96 to 0.97.
 
-**Technologies:**  
+**Technologies**:  
 Python | Scikit-learn | XGBoost | GridSearchCV | Machine Learning | Data Preprocessing | Model Evaluation  
 
 ## Data Analysis
@@ -48,4 +46,27 @@ Analyzed 4.5 million Uber trip records (April–September) to identify temporal 
 Python | Pandas | NumPy | Matplotlib | Seaborn | Geospatial Analysis | Data Visualization | Time-Series Analysis  
 
 ## Data Engineering
-### 1.
+### 1. [End-to-End Financial Data Warehouse (Airflow + dbt + ClickHouse)](https://github.com/DanniZhang0316/Data-Engineering-Stock/tree/master)    
+
+Designed and implemented a production-style data platform to ingest, transform, and analyze S&P 600 stock market data using modern data engineering tools and a star schema warehouse model.
+
+- **Data Architecture**: Built a star schema data warehouse consisting of a central FactStockPrice table and SCD Type 2 dimension tables (Company, Exchange, Currency) with full historical tracking.
+
+- **Data Ingestion**: Orchestrated daily and monthly ETL pipelines in Apache Airflow to extract data from AlphaVantage APIs, Wikipedia scraping. Implemented automated refresh frequencies (daily, weekly, monthly).
+
+- **Storage & Processing**: Stored raw data in clickhouse and transformed data into a structured warehouse model with surrogate keys, referential integrity checks, and range validations.
+
+- **Data Transformation (dbt)**: Developed staging and mart models to generate fact and dimension tables, including incremental loading strategies and data quality tests.
+
+- **Iceberg Integration**: Implemented Apache Iceberg as a bronze layer for daily stock data and exposed Iceberg tables as read-only analytical tables in ClickHouse.
+
+-  **Data Governance & Security**: Implemented role-based access control (RBAC) with column-level security and data pseudonymization in ClickHouse, enforcing fine-grained access control over sensitive company attributes.
+
+- **Analytics & Business Queries**: Built SQL analytics answering key business questions such as:
+  - Top 3 most-traded companies per sector (Q1 2025)
+  - Sector composition trends (2000–2025)
+  - Highest volatility stocks
+  - Price growth leaders
+
+**Technologies**:  
+Apache Airflow | dbt | ClickHouse | Apache Iceberg | Docker | Python | SQL | OpenMetadata | Star Schema Modeling

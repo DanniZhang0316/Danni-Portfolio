@@ -32,4 +32,20 @@ Developed a machine learning pipeline to predict loan approval outcomes using a 
 - **Results**: Compared performance across all six models and identified XGBoost, and Random Forest as the top performers, achieving ROC-AUC scores ranging from 0.96 to 0.97.
 
 **Technologies:**  
-Python · Scikit-learn · XGBoost · GridSearchCV · Machine Learning · Data Preprocessing · Model Evaluation  
+Python | Scikit-learn | XGBoost | GridSearchCV | Machine Learning | Data Preprocessing | Model Evaluation  
+
+## Data Analysis
+### 1. [Uber Pickups Analysis in New York City](https://github.com/DanniZhang0316/Data-Analysis-Uber-pickups)
+Analyzed 4.5 million Uber trip records (April–September) to identify temporal and spatial demand patterns across New York City, supporting data-driven insights for service optimization and fleet management.
+
+- **Data Processing & Exploration**: Merged six monthly datasets and performed large-scale data cleaning and preprocessing. Conducted exploratory data analysis to uncover monthly, weekly, and hourly demand patterns.
+
+- **Time-Series Analysis**: Identified peak usage periods, including evening rush hours (16:00–19:00), weekday vs. weekend differences (+19.6% higher demand on weekdays), and special Monday demand behavior.
+
+- **Spatial Analysis**: Generated geographic heatmaps to detect high-demand pickup hotspots and low-demand regions, highlighting core service areas and potential outliers.
+
+**Technologies:**  
+Python | Pandas | NumPy | Matplotlib | Seaborn | Geospatial Analysis | Data Visualization | Time-Series Analysis  
+
+## Data Engineering
+### 1.
